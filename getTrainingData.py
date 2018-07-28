@@ -1,3 +1,10 @@
+import gym
+import random
+
+env = gym.make('SpaceInvaders-v0')
+env.reset()
+
+
 minScore = 100
 MaxSteps = 600
 minEpisodes = 250
@@ -26,7 +33,7 @@ def processGameData(game_data, training_data):
     return training_data
 
 
-for i in range(1,numGenerations+1)
+for i in range(1,numGenerations+1):
 
     trainingData = []
     scores = []
