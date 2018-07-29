@@ -1,5 +1,7 @@
 import gym
 import random
+import cv2
+import numpy as np
 
 env = gym.make('SpaceInvaders-v0')
 env.reset()
